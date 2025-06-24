@@ -5,13 +5,13 @@
       login_hosts: mysql.daws93.com
   tasks:
   - name: Install Mysql server
-    ansible.bulitin.dnf:
+    ansible.builtin.dnf:
        name: mysql-server
        state: latest
 
 - name: start and mysql server
   hosts: db
-  ansible.bulitin.service:
+  ansible.builtin.service:
         name: mysqld
         state: started
         enabled: yes
