@@ -20,6 +20,7 @@
       enabled: yes
 
   - name: check Db connection
+    become: true
     community.mysql.mysql_info:
       login_user: root
       login_password: "{{ mysql_root_password }}"
