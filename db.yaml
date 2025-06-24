@@ -4,7 +4,7 @@
   vars:
       login_hosts: db.nsrinformation.cloud
   vars_prompt:
-  - name: mysql-root-password
+  - name: mysql_root_password
     prompt: Please enter password my root password
     private: no
   tasks:
