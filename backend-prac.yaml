@@ -17,6 +17,7 @@
   - name: add user
     ansible.builtin.user: 
       name: expense
+
   - name: create app dir
     ansible.builtin.command:
       path: /app
@@ -30,5 +31,6 @@
   - name: unzip backendcode
     ansible.builtin.unarchive:
       src: /tmp/backend.zip
-
+      dest: /app
+      remote_src: yes
 
