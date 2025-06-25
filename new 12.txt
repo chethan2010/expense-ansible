@@ -1,0 +1,16 @@
+ ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 01-Ping.yaml
+  mysql -h dawsinfo.com -u root -pExpenseApp@1
+
+
+
+{'key': 'course', 'value': 'devops'}, 
+{'key': 'trainer', 'value': 'shivakumar'}, 
+{'key': 'time', 'value': '180hrs'}"
+
+
+
+{'course': 'devops', 'trainer': 'shivakumar', 'time': '180hrs'}"
+
+
+	
+nsrinformation.cloud
